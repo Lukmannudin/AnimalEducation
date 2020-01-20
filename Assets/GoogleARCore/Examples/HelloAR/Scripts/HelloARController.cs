@@ -28,6 +28,8 @@ namespace GoogleARCore.Examples.HelloAR
     using UnityEngine;
     using UnityEngine.EventSystems;
 
+    // TODO:: Konfigurasi dulu AR Corenya https://developers.google.com/ar/develop/unity/quickstart-android.
+    
 #if UNITY_EDITOR
     // Set up touch input propagation while using Instant Preview in the editor.
     using Input = InstantPreviewInput;

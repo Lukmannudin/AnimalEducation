@@ -21,4 +21,9 @@ public class MenuManager : MonoBehaviour
     {
         UnityEngine.SceneManagement.SceneManager.LoadScene(1);
     }
+
+    public void backScene()
+    {
+        UnityEngine.SceneManagement.SceneManager.LoadScene(0);
+    }
 }

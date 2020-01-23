@@ -24,7 +24,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4394752299378773397}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.1079627, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 8757248515129388373}
@@ -42,12 +42,12 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: 487dd29cc5143504ab5ebf467dbdf5d6,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.0373
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 487dd29cc5143504ab5ebf467dbdf5d6,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.1855627
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 487dd29cc5143504ab5ebf467dbdf5d6,
         type: 3}
@@ -131,6 +131,19 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2384621394521732503, guid: 44caf6303a3c21f4d8f763bfa984e8c4,
         type: 3}
+      propertyPath: m_text
+      value: "Nama: Harimau Siberia (Panthera tigris altaica)\n\nMassa: lebih dari
+        460 kg\n\nPanjang: Panjang jantan antara 2,6 dan 3,3 meter, sedangkan betina
+        antara 2,3 dan 2,75 meter\n\nStatus: Terancam \n\nHabitat: Wilayah Amur di
+        Timur Jauh "
+      objectReference: {fileID: 0}
+    - target: {fileID: 2384621394521732503, guid: 44caf6303a3c21f4d8f763bfa984e8c4,
+        type: 3}
+      propertyPath: m_firstOverflowCharacterIndex
+      value: 188
+      objectReference: {fileID: 0}
+    - target: {fileID: 2384621394521732503, guid: 44caf6303a3c21f4d8f763bfa984e8c4,
+        type: 3}
       propertyPath: m_textInfo.characterCount
       value: 224
       objectReference: {fileID: 0}
@@ -149,24 +162,6 @@ PrefabInstance:
       propertyPath: m_textInfo.lineCount
       value: 11
       objectReference: {fileID: 0}
-    - target: {fileID: 2384621394521732503, guid: 44caf6303a3c21f4d8f763bfa984e8c4,
-        type: 3}
-      propertyPath: m_textInfo.pageCount
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2384621394521732503, guid: 44caf6303a3c21f4d8f763bfa984e8c4,
-        type: 3}
-      propertyPath: m_text
-      value: "Nama: Harimau Siberia (Panthera tigris altaica)\n\nMassa: lebih dari
-        460 kg\n\nPanjang: Panjang jantan antara 2,6 dan 3,3 meter, sedangkan betina
-        antara 2,3 dan 2,75 meter\n\nStatus: Terancam \n\nHabitat: Wilayah Amur di
-        Timur Jauh "
-      objectReference: {fileID: 0}
-    - target: {fileID: 2384621394521732503, guid: 44caf6303a3c21f4d8f763bfa984e8c4,
-        type: 3}
-      propertyPath: m_firstOverflowCharacterIndex
-      value: 188
-      objectReference: {fileID: 0}
     - target: {fileID: 4476961614539386605, guid: 44caf6303a3c21f4d8f763bfa984e8c4,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -180,7 +175,7 @@ PrefabInstance:
     - target: {fileID: 4476961614539386605, guid: 44caf6303a3c21f4d8f763bfa984e8c4,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.002
+      value: -0.278
       objectReference: {fileID: 0}
     - target: {fileID: 4476961614539386605, guid: 44caf6303a3c21f4d8f763bfa984e8c4,
         type: 3}
@@ -225,7 +220,7 @@ PrefabInstance:
     - target: {fileID: 4476961614539386605, guid: 44caf6303a3c21f4d8f763bfa984e8c4,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -1.324
+      value: -0.359
       objectReference: {fileID: 0}
     - target: {fileID: 4476961614539386605, guid: 44caf6303a3c21f4d8f763bfa984e8c4,
         type: 3}
